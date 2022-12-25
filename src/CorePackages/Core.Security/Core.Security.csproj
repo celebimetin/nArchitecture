@@ -15,10 +15,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Dtos\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <ProjectReference Include="..\Core.Persistence\Core.Persistence.csproj" />
 	</ItemGroup>
 

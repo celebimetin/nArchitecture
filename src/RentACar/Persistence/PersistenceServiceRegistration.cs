@@ -17,6 +17,10 @@ namespace Persistence
             });
             services.AddScoped<IBrandRepository, BrandRespository>();
             services.AddScoped<IModelRepository, ModelRespository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IOperationClaimRepository, OperationClaimRepository>();
+            services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+            services.AddScoped<IUserOperationClaimRepository, UserOperationClaimRepository>();
 
             return services;
         }
